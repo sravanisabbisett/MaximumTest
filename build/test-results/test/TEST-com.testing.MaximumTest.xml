@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.testing.MaximumTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-10-28T15:40:24" hostname="DESKTOP-62HQPBS" time="0.009">
+<testsuite name="com.testing.MaximumTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-10-28T15:57:45" hostname="DESKTOP-62HQPBS" time="0.01">
   <properties/>
-  <testcase name="givenMaximumInteger_AsThirdParameter_ShouldReturnMaximum" classname="com.testing.MaximumTest" time="0.003"/>
-  <testcase name="givenMaximumInteger_AsSecondParameter_ShouldReturnMaximum" classname="com.testing.MaximumTest" time="0.0"/>
-  <testcase name="givenMaximumInteger_AsAFirstParameter_ShouldReturnMaximum" classname="com.testing.MaximumTest" time="0.0"/>
+  <testcase name="givenMaximumInteger_AsAFirstParameter_ShouldReturnMaximumInteger" classname="com.testing.MaximumTest" time="0.002"/>
+  <testcase name="givenMaximumFloat_AsFirstParameter_ShouldReturnMaximumFloat" classname="com.testing.MaximumTest" time="0.0"/>
+  <testcase name="givenMaximumFloat_AsThirdParameter_ShouldReturnMaximumFloat" classname="com.testing.MaximumTest" time="0.0"/>
+  <testcase name="givenMaximumInteger_AsSecondParameter_ShouldReturnMaximumInterger" classname="com.testing.MaximumTest" time="0.003"/>
+  <testcase name="givenMaximumInteger_AsThirdParameter_ShouldReturnMaximumInteger" classname="com.testing.MaximumTest" time="0.001"/>
+  <testcase name="givenMaximumFloat_AsSecondParameter_ShouldReturnMaximumFloat" classname="com.testing.MaximumTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
