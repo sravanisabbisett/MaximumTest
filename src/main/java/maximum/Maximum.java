@@ -22,4 +22,15 @@ public class Maximum {
         }
         return maximum;
     }
+
+    public String maximumString(String x, String y, String z) {
+        String maximum=x;
+        if(y.compareTo(maximum)>0){
+            maximum=y;
+        }
+        if(z.compareTo(maximum)>0){
+            maximum=z;
+        }
+        return maximum;
+    }
 }
