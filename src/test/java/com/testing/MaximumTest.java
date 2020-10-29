@@ -5,13 +5,10 @@ import org.junit.Before;
 import org.junit.Test;
 import maximum.Maximum;
 
+import java.util.Optional;
+
 public class MaximumTest {
     Maximum maximum;
-
-    @Before
-    public void setUp() throws Exception {
-        maximum=new Maximum();
-    }
 
     @Test
     public void givenMaximumInteger_AsAFirstParameter_ShouldReturnMaximumInteger() {
@@ -20,7 +17,7 @@ public class MaximumTest {
         Assert.assertEquals(expectedResult,maximumResult);
     }
     @Test
-    public void givenMaximumInteger_AsSecondParameter_ShouldReturnMaximumInterger(){
+    public void givenMaximumInteger_AsSecondParameter_ShouldReturnMaximumInteger(){
         Integer maximumResult=maximum.checkMaximum(4,5,3);
         Integer expectedResult=5;
         Assert.assertEquals(expectedResult,maximumResult);
@@ -65,4 +62,22 @@ public class MaximumTest {
         String maximumResult=maximum.checkMaximum("apple","orange","peach");
         Assert.assertEquals("peach",maximumResult);
     }
+    @Test
+    public void givenMaximumInteger_ShouldReturnMaximumInteger() {
+        Comparable maximumResult=new Maximum(8,7,6).maximum();
+        Assert.assertEquals(8,maximumResult);
+    }
+    @Test
+    public void givenMaximumFloat_UsingGenericClass_ShouldReturnMaximumFloat() {
+        Comparable maximumResult= new Maximum(7.7,6.7,9.9).maximum();
+        Assert.assertEquals(9.9,maximumResult);
+    }
+    @Test
+    public void givenMaximumString_UsingGenericClass_ShouldReturnMaximumString(){
+        Comparable maximumResult=new Maximum("peach","orange","apple").maximum();
+        Assert.assertEquals("peach",maximumResult);
+    }
+
+
+
 }

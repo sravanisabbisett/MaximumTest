@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.testing.MaximumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-10-29T04:16:06" hostname="DESKTOP-62HQPBS" time="0.022">
+<testsuite name="com.testing.MaximumTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-10-29T07:33:35" hostname="DESKTOP-62HQPBS" time="0.005">
   <properties/>
   <testcase name="givenMaximumString_AsSecondParameter_ShouldReturnMaximumString" classname="com.testing.MaximumTest" time="0.001"/>
-  <testcase name="givenMaximumInteger_AsAFirstParameter_ShouldReturnMaximumInteger" classname="com.testing.MaximumTest" time="0.001"/>
+  <testcase name="givenMaximumInteger_AsAFirstParameter_ShouldReturnMaximumInteger" classname="com.testing.MaximumTest" time="0.0"/>
+  <testcase name="givenMaximumInteger_AsSecondParameter_ShouldReturnMaximumInteger" classname="com.testing.MaximumTest" time="0.0"/>
+  <testcase name="givenMaximumFloat_UsingGenericClass_ShouldReturnMaximumFloat" classname="com.testing.MaximumTest" time="0.001"/>
   <testcase name="givenMaximumFloat_AsFirstParameter_ShouldReturnMaximumFloat" classname="com.testing.MaximumTest" time="0.0"/>
   <testcase name="givenMaximumFloat_AsThirdParameter_ShouldReturnMaximumFloat" classname="com.testing.MaximumTest" time="0.0"/>
+  <testcase name="givenMaximumInteger_ShouldReturnMaximumInteger" classname="com.testing.MaximumTest" time="0.001"/>
   <testcase name="givenMaximumString_AsFirstParameter_ShouldReturnMaximumString" classname="com.testing.MaximumTest" time="0.0"/>
-  <testcase name="givenMaximumInteger_AsSecondParameter_ShouldReturnMaximumInterger" classname="com.testing.MaximumTest" time="0.001"/>
-  <testcase name="givenMaximumInteger_AsThirdParameter_ShouldReturnMaximumInteger" classname="com.testing.MaximumTest" time="0.003"/>
+  <testcase name="givenMaximumInteger_AsThirdParameter_ShouldReturnMaximumInteger" classname="com.testing.MaximumTest" time="0.0"/>
   <testcase name="givenMaximumString_AsThirdParameter_ShouldReturnMaximumString" classname="com.testing.MaximumTest" time="0.0"/>
+  <testcase name="givenMaximumString_UsingGenericClass_ShouldReturnMaximumString" classname="com.testing.MaximumTest" time="0.0"/>
   <testcase name="givenMaximumFloat_AsSecondParameter_ShouldReturnMaximumFloat" classname="com.testing.MaximumTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -1,6 +1,17 @@
 package maximum;
 
-public class Maximum {
+
+public class Maximum<T extends Comparable<T>>{
+    T x,y,z;
+    public Maximum(T x,T y,T z){
+        this.x=x;
+        this.y=y;
+        this.z=z;
+    }
+
+    public T maximum(){
+        return Maximum.checkMaximum(x,y,z);
+    }
 
     public static <T extends Comparable<T>> T checkMaximum(T x,T y,T z){
        T maximum=x;
@@ -12,4 +23,5 @@ public class Maximum {
        }
        return maximum;
     }
+
 }
