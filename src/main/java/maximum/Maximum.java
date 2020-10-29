@@ -23,16 +23,17 @@ public class Maximum<T extends Comparable<T>>{
        if(z.compareTo(maximum)>0){
            maximum=z;
        }
+       printMaximum(x,y,z,maximum);
        return maximum;
     }
-    public static <T extends Comparable<T>> T checkMaximum_MoreThan_ThreeParameters(T...elements) {
-        T maximum = elements[0];
-         for(T maximumElement:elements){
-            if(maximumElement.compareTo(maximum)>0){
-                maximum=maximumElement;
-            }
-        }
-        return maximum;
+
+    public static <E extends Comparable> E moreThan_ThreeParameters(E ...elements){
+        Arrays.sort(elements);
+        return elements[elements.length-1];
+    }
+
+    public static <T> void printMaximum(T x,T y ,T z,T maximum){
+        System.out.printf("Maximum of %s ,%s and %s is %s\n",x,y,z,maximum);
     }
 
 }

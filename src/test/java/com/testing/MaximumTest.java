@@ -78,19 +78,20 @@ public class MaximumTest {
 
     @Test
     public void givenNIntegers_UsingMoreThanThreeParameters_ShouldReturnMaximumInteger() {
-       Integer maximumResult=maximum.checkMaximum_MoreThan_ThreeParameters(5,7,2,8,9,10);
+       Integer maximumResult=maximum.moreThan_ThreeParameters(5,7,2,8,9,10);
        Integer expectedResult=10;
        Assert.assertEquals(expectedResult,maximumResult);
     }
     @Test
     public void givenNFloats_UsingMoreThanThreeParameters_ShouldReturnMaximumFloat(){
-        Float maximumResult=maximum.checkMaximum_MoreThan_ThreeParameters(7.7f,4.4f,5.5f,9.9f);
+        Float maximumResult=maximum.moreThan_ThreeParameters(7.7f,4.4f,5.5f,9.9f);
         Float expectedResult=9.9f;
         Assert.assertEquals(expectedResult,maximumResult);
     }
     @Test
     public void givenNStrings_UsingMoreThanThreeParameters_ShouldReturnMaximumString(){
-        String maximumResult=maximum.checkMaximum_MoreThan_ThreeParameters("orange","peach","apple","strawberry");
+        String maximumResult=maximum.moreThan_ThreeParameters("orange","peach","apple","strawberry");
         Assert.assertEquals("strawberry",maximumResult);
     }
+
 }
