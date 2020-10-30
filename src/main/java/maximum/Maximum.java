@@ -3,27 +3,27 @@ package maximum;
 
 import java.util.Arrays;
 
-public class Maximum<T extends Comparable<T>>{
-    T x,y,z;
-    public Maximum(T x,T y,T z){
-        this.x=x;
-        this.y=y;
-        this.z=z;
+public class Maximum<E extends Comparable<E>>{
+    E element1,element2,element3;
+    public Maximum(E element1,E element2,E element3){
+        this.element1=element1;
+        this.element2=element2;
+        this.element3=element3;
     }
 
-    public T maximum(){
-        return Maximum.checkMaximum(x,y,z);
+    public E maximum(){
+        return Maximum.checkMaximum(element1,element2,element3);
     }
 
-    public static <T extends Comparable<T>> T checkMaximum(T x,T y,T z){
-       T maximum=x;
-       if(y.compareTo(maximum)>0){
-           maximum=y;
+    public static <E extends Comparable<E>> E checkMaximum(E element1,E element2,E element3){
+       E maximum=element1;
+       if(element2.compareTo(maximum)>0){
+           maximum=element2;
        }
-       if(z.compareTo(maximum)>0){
-           maximum=z;
+       if(element3.compareTo(maximum)>0){
+           maximum=element3;
        }
-       printMaximum(x,y,z,maximum);
+       printMaximum(element1,element2,element3,maximum);
        return maximum;
     }
 
@@ -32,8 +32,8 @@ public class Maximum<T extends Comparable<T>>{
         return elements[elements.length-1];
     }
 
-    public static <T> void printMaximum(T x,T y ,T z,T maximum){
-        System.out.printf("Maximum of %s ,%s and %s is %s\n",x,y,z,maximum);
+    public static <T> void printMaximum(T element1,T element2 ,T element3,T maximum){
+        System.out.printf("Maximum of %s ,%s and %s is %s\n",element1,element2,element3,maximum);
     }
 
 }

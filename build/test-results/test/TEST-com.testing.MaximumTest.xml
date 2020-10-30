@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.testing.MaximumTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-10-29T09:00:43" hostname="DESKTOP-62HQPBS" time="0.033">
+<testsuite name="com.testing.MaximumTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-10-29T10:00:34" hostname="DESKTOP-62HQPBS" time="0.033">
   <properties/>
-  <testcase name="givenMaximumString_AsFirstPosition_ShouldReturnMaximumString" classname="com.testing.MaximumTest" time="0.003"/>
+  <testcase name="givenMaximumString_AsFirstPosition_ShouldReturnMaximumString" classname="com.testing.MaximumTest" time="0.004"/>
   <testcase name="givenMaximumString_AsThirdPosition_ShouldReturnMaximumString" classname="com.testing.MaximumTest" time="0.001"/>
-  <testcase name="givenMaximumInteger_AsThirdPosition_ShouldReturnMaximumInteger" classname="com.testing.MaximumTest" time="0.001"/>
+  <testcase name="givenMaximumInteger_AsThirdPosition_ShouldReturnMaximumInteger" classname="com.testing.MaximumTest" time="0.002"/>
   <testcase name="givenNIntegers_UsingMoreThanThreeParameters_ShouldReturnMaximumInteger" classname="com.testing.MaximumTest" time="0.001"/>
-  <testcase name="givenMaximumFloat_AsSecondPosition_ShouldReturnMaximumFloat" classname="com.testing.MaximumTest" time="0.004"/>
-  <testcase name="givenMaximumFloat_UsingGenericClass_ShouldReturnMaximumFloat" classname="com.testing.MaximumTest" time="0.002"/>
-  <testcase name="givenMaximumInteger_AsSecondPosition_ShouldReturnMaximumInteger" classname="com.testing.MaximumTest" time="0.002"/>
+  <testcase name="givenMaximumFloat_AsSecondPosition_ShouldReturnMaximumFloat" classname="com.testing.MaximumTest" time="0.002"/>
+  <testcase name="givenMaximumFloat_UsingGenericClass_ShouldReturnMaximumFloat" classname="com.testing.MaximumTest" time="0.0"/>
+  <testcase name="givenMaximumInteger_AsSecondPosition_ShouldReturnMaximumInteger" classname="com.testing.MaximumTest" time="0.0"/>
   <testcase name="givenMaximumInteger_ShouldReturnMaximumInteger" classname="com.testing.MaximumTest" time="0.001"/>
-  <testcase name="givenNFloats_UsingMoreThanThreeParameters_ShouldReturnMaximumFloat" classname="com.testing.MaximumTest" time="0.001"/>
+  <testcase name="givenNFloats_UsingMoreThanThreeParameters_ShouldReturnMaximumFloat" classname="com.testing.MaximumTest" time="0.0"/>
   <testcase name="givenMaximumFloat_AsThirdPosition_ShouldReturnMaximumFloat" classname="com.testing.MaximumTest" time="0.002"/>
-  <testcase name="givenMaximumString_AsSecondPosition_ShouldReturnMaximumString" classname="com.testing.MaximumTest" time="0.003"/>
-  <testcase name="givenMaximumFloat_AsFirstPosition_ShouldReturnMaximumFloat" classname="com.testing.MaximumTest" time="0.001"/>
-  <testcase name="givenMaximumInteger_AsFirstPosition_ShouldReturnMaximumInteger" classname="com.testing.MaximumTest" time="0.002"/>
-  <testcase name="givenMaximumString_UsingGenericClass_ShouldReturnMaximumString" classname="com.testing.MaximumTest" time="0.002"/>
+  <testcase name="givenMaximumString_AsSecondPosition_ShouldReturnMaximumString" classname="com.testing.MaximumTest" time="0.0"/>
+  <testcase name="givenMaximumFloat_AsFirstPosition_ShouldReturnMaximumFloat" classname="com.testing.MaximumTest" time="0.0"/>
+  <testcase name="givenMaximumInteger_AsFirstPosition_ShouldReturnMaximumInteger" classname="com.testing.MaximumTest" time="0.0"/>
+  <testcase name="givenMaximumString_UsingGenericClass_ShouldReturnMaximumString" classname="com.testing.MaximumTest" time="0.003"/>
   <testcase name="givenNStrings_UsingMoreThanThreeParameters_ShouldReturnMaximumString" classname="com.testing.MaximumTest" time="0.001"/>
   <system-out><![CDATA[Maximum of peach ,orange and apple is peach
 Maximum of apple ,orange and peach is peach

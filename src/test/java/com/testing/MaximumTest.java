@@ -10,39 +10,33 @@ public class MaximumTest {
 
     @Test
     public void givenMaximumInteger_AsFirstPosition_ShouldReturnMaximumInteger() {
-        Integer maximumResult=maximum.checkMaximum(5,4,3);
-        Integer expectedResult=5;
-        Assert.assertEquals(expectedResult,maximumResult);
+        Comparable maximumResult=maximum.checkMaximum(5,4,3);
+        Assert.assertEquals(5,maximumResult);
     }
     @Test
     public void givenMaximumInteger_AsSecondPosition_ShouldReturnMaximumInteger(){
-        Integer maximumResult=maximum.checkMaximum(4,5,3);
-        Integer expectedResult=5;
-        Assert.assertEquals(expectedResult,maximumResult);
+        Comparable maximumResult=maximum.checkMaximum(4,5,3);
+        Assert.assertEquals(5,maximumResult);
     }
     @Test
     public void givenMaximumInteger_AsThirdPosition_ShouldReturnMaximumInteger() {
-        Integer maximumResult=maximum.checkMaximum(3,4,5);
-        Integer expectedResult=5;
-        Assert.assertEquals(expectedResult,maximumResult);
+        Comparable maximumResult=maximum.checkMaximum(3,4,5);
+        Assert.assertEquals(5,maximumResult);
     }
     @Test
     public void givenMaximumFloat_AsFirstPosition_ShouldReturnMaximumFloat() {
-        Float maximumResult=maximum.checkMaximum(8.8f,7.7f,6.6f);
-        Float expectedResult=8.8f;
-        Assert.assertEquals(expectedResult,maximumResult);
+        Comparable maximumResult=maximum.checkMaximum(8.8f,7.7f,6.6f);
+        Assert.assertEquals(8.8f,maximumResult);
     }
     @Test
     public void givenMaximumFloat_AsSecondPosition_ShouldReturnMaximumFloat() {
-        Float maximumResult=maximum.checkMaximum(7.7f,8.8f,6.6f);
-        Float expectedResult=8.8f;
-        Assert.assertEquals(expectedResult,maximumResult);
+        Comparable maximumResult=maximum.checkMaximum(7.7f,8.8f,6.6f);
+        Assert.assertEquals(8.8f,maximumResult);
     }
     @Test
     public void givenMaximumFloat_AsThirdPosition_ShouldReturnMaximumFloat(){
-        Float maximumResult=maximum.checkMaximum(6.6f,7.7f,8.8f);
-        Float expectedResult=8.8f;
-        Assert.assertEquals(expectedResult,maximumResult);
+        Comparable maximumResult=maximum.checkMaximum(6.6f,7.7f,8.8f);
+        Assert.assertEquals(8.8f,maximumResult);
     }
     @Test
     public void givenMaximumString_AsFirstPosition_ShouldReturnMaximumString() {
